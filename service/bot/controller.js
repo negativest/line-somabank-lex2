@@ -102,8 +102,8 @@ const onText = (instance, event) => {
       template: {
         type: 'buttons',
         thumbnailImageUrl: process.env.BASE_URL + '/asset/img/liveagent_invite.png',
-        title: '答えが見つかりませんか？',
-        text: '今すぐチャットでオペレータに質問してみましょう。',
+        title: '申し訳ございません、わかりませんでした。',
+        text: 'オペレータに転送をしますか？',
         actions: [{
           type: 'postback',
           label: 'チャットを開始',

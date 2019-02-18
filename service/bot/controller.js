@@ -103,7 +103,7 @@ const onText = (instance, event) => {
         type: 'buttons',
         thumbnailImageUrl: process.env.BASE_URL + '/asset/img/liveagent_invite.png',
         title: '申し訳ございません、わかりませんでした。',
-        text: 'オペレータに転送をしますか？',
+        text: 'オペレータにやりとりを転送をしますか？',
         actions: [{
           type: 'postback',
           label: 'チャットを開始',
